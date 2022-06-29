@@ -16,8 +16,8 @@ body {
     background-size: 400% 400%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     position: relative;
     animation: backgroundTransition 8s ease-in-out infinite;
 }
@@ -94,7 +94,7 @@ a:hover {
     background-color: #ffffff;
     position: absolute;
     border-radius: 4px;
-    transition: 0.5 ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 .checkbox .trace:nth-child(1) {
@@ -147,36 +147,37 @@ a:hover {
     visibility: hidden;
     transition: 400ms ease-in-out 0s;
 }
-
 .menu-items ul {
     list-style-type: none;
 }
 
-.menu-items ul li {
+.menu-items ul li a{
     margin: 10px 0;
-    color: #575761;
-    text-decoration: 0;
-    text-transform: 0;
+    color: #B3093F;
+    text-decoration: none;
+    text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 90px;
+    font-size: 40px;
 }
 
  /*Animação Menu */
 
 #toggle:checked + .checkbox .trace:nth-child(1) {
     transform: rotate(45deg);
+    background-color: #451531;
     top: 47px;
 }
 
 #toggle:checked + .checkbox .trace:nth-child(2) {
-    transform: translateX(45px);
+    transform: translateX(100px);
     width: 30px;
     visibility: hidden;
+    nav-up: 12px;
     opacity: 0;
 }
 
 #toggle:checked + .checkbox .trace:nth-child(3) {
-    transform: translateX(-45px);
+    transform: translateX(-100px);
     width: 30px;
     visibility: hidden;
     nav-down: 12px;
@@ -185,6 +186,7 @@ a:hover {
 
 #toggle:checked + .checkbox .trace:nth-child(4) {
     transform: rotate(-45deg);
+    background-color: #451531;
     top: 48px;
 }
 
