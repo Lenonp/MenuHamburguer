@@ -202,4 +202,34 @@ a:hover {
 #toggle:checked ~ .menu-items {
     visibility: visible;
     opacity: 1;
-}   
+}
+
+/* Cards */
+
+.container{
+    width: 100;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.car-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.card{
+    height: 300px;
+    width: 200px;
+    margin: 3rem 0;
+    background-position: center;
+}
+img{
+    display: block;
+    width: 100%;
+}
