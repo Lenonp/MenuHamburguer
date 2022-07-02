@@ -204,10 +204,10 @@ a:hover {
     opacity: 1;
 }
 
-/* Cards */
+/* **** Cards ***** */
 
 .container{
-    width: 100;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -216,20 +216,185 @@ a:hover {
     margin: 3rem 0;
 }
 
-.car-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 90%;
+/* ========== card 01 ========== */
+
+.card-github img {
+    height: 90%;
+    width: 60%;
+    filter: grayscale(0.5);
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+    padding-left: 20px;
 }
 
-.card{
-    height: 300px;
-    width: 200px;
-    margin: 3rem 0;
-    background-position: center;
+.card-github {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 10px;
+    width: 80%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: rgb(109, 109, 109);
+    padding-bottom: 100px;
 }
-img{
-    display: block;
+
+.card-github h2::before {
+    content: "";
+    margin: 10px;
+    background: #B3093F;
+    width: 6px;
+    height: 60px;
+    border-radius: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.card-github h2{
+    font-size:32px;
+    color: #64B7CC;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-github p{
+    font-size: 18px;
+    color: #451531;
+    display: inline-block;
+    vertical-align: center;
+    flex-direction: row;
+    margin-bottom: 10px;
     width: 100%;
+
 }
+
+.card-github h4{
+    font-size: 14px;
+    color: #64B7CC;
+    position: relative;
+}
+
+/* =========== card 02 =========== */
+
+.card-linkedin img {
+    height: 90%;
+    width: 60%;
+    filter: grayscale(0.5);
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card-linkedin {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 10px;
+    width: 80%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: rgb(109, 109, 109);
+    padding-bottom: 100px;
+    padding-left: 20px;
+}
+
+.card-linkedin h2::before {
+    content: "";
+    margin: 10px;
+    background: #B3093F;
+    width: 6px;
+    height: 60px;
+    border-radius: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.card-linkedin h2{
+    font-size:32px;
+    color: #64B7CC;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.card-linkedin p{
+    font-size: 18px;
+    color: #451531;
+    display: inline-block;
+    vertical-align: center;
+    flex-direction: row-reverse;
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+
+.card-linkedin h4{
+    font-size: 14px;
+    color: #64B7CC;
+}
+
+/* ========== card 03 =========== */
+
+.card-instagran img {
+    height: 90%;
+    width: 60%;
+    filter: grayscale(0.5);
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+    padding-left: 20px;
+}
+
+.card-instagran {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 10px;
+    width: 80%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: rgb(109, 109, 109);
+    padding-bottom: 100px;
+}
+
+.card-instagran h2::before {
+    content: "";
+    margin: 10px;
+    background: #B3093F;
+    width: 6px;
+    height: 60px;
+    border-radius: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.card-instagran h2{
+    font-size:32px;
+    color: #64B7CC;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-instagran p{
+    font-size: 18px;
+    color: #451531;
+    display: inline-block;
+    vertical-align: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+
+.card-instagran h4{
+    flex-direction: row;
+    font-size: 14px;
+    color: #64B7CC;
+
+
+}
+
+
